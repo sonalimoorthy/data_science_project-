@@ -1,0 +1,59 @@
+{
+  "table_name": "master_country_year",
+  "primary_key": [
+    "Country",
+    "Year"
+  ],
+  "column_order": [
+    "Country",
+    "Year",
+    "Region",
+    "Num_Attacks",
+    "Fatalities",
+    "Injuries",
+    "Attack_Type_Mode",
+    "Target_Type_Mode",
+    "Perpetrator_Mode",
+    "Conflict",
+    "Conflict_Level",
+    "Conflict_Intensity_deaths",
+    "Conflict_Region",
+    "Population",
+    "GDP_per_capita",
+    "has_conflict_data",
+    "has_population_data",
+    "has_gdp_data",
+    "country_mapping_applied"
+  ],
+  "required_columns": [
+    "Country",
+    "Year",
+    "Num_Attacks",
+    "Fatalities",
+    "Injuries",
+    "has_conflict_data",
+    "has_population_data",
+    "has_gdp_data"
+  ],
+  "dtypes": {
+    "Country": "string",
+    "Year": "int64",
+    "Region": "string",
+    "Num_Attacks": "int64",
+    "Fatalities": "float64",
+    "Injuries": "float64",
+    "Attack_Type_Mode": "string",
+    "Target_Type_Mode": "string",
+    "Perpetrator_Mode": "string",
+    "Conflict": "int64",
+    "Conflict_Level": "int64",
+    "Conflict_Intensity_deaths": "float64",
+    "Conflict_Region": "string",
+    "Population": "float64",
+    "GDP_per_capita": "float64",
+    "has_conflict_data": "int64",
+    "has_population_data": "int64",
+    "has_gdp_data": "int64",
+    "country_mapping_applied": "int64"
+  }
+}

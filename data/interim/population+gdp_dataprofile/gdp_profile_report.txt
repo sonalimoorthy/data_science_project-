@@ -1,0 +1,46 @@
+GDP PER CAPITA DATASET - DATA PROFILING REPORT
+================================================================================
+Input file: C:\Users\Sonali Moorthy\Desktop\dsf-datacleaning\data\raw\gdp-per-capita-maddison-project-database\gdp-per-capita-maddison-project-database.csv
+Subset output: C:\Users\Sonali Moorthy\Desktop\dsf-datacleaning\data\interim\gdp_profile_subset.csv
+Selected GDP column: GDP per capita
+
+1) BASIC DATASET INFO
+--------------------------------------------------------------------------------
+Shape (rows, columns): (21586, 3)
+Column names: ['Entity', 'Year', 'GDP per capita']
+Data types:
+  - Entity: str
+  - Year: int64
+  - GDP per capita: float64
+
+2) DATA QUALITY CHECKS
+--------------------------------------------------------------------------------
+Missing values (count):
+  - Entity: 0
+  - Year: 0
+  - GDP per capita: 0
+Missing values (%):
+  - Entity: 0.0
+  - Year: 0.0
+  - GDP per capita: 0.0
+Duplicate rows: 0
+Unique countries/entities: 178
+Year range: 1 to 2022
+
+3) GDP COLUMN CHECKS
+--------------------------------------------------------------------------------
+Column: GDP per capita
+Mean: 6869.635191137311
+Min: 295.0
+Max: 160051.23
+Negative values count: 0
+
+4) POTENTIAL DATA ISSUES
+--------------------------------------------------------------------------------
+Potential non-country entries detected: 380
+Examples of non-country entries (heuristic): Czechoslovakia, USSR, World, Yugoslavia
+Missing GDP values: 0
+
+NOTE
+--------------------------------------------------------------------------------
+This script is profiling only. No cleaning, dropping, filling, renaming, or filtering is applied to the data.

@@ -1,0 +1,12 @@
+{
+  "row_count": 3762,
+  "distinct_countries": 205,
+  "year_min": 1970,
+  "year_max": 2017,
+  "duplicate_country_year_keys": 0,
+  "match_rates": {
+    "conflict": 0.6180223285486444,
+    "population": 0.9292929292929293,
+    "gdp": 0.8766613503455609
+  }
+}

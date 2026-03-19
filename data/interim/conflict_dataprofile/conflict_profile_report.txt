@@ -1,0 +1,48 @@
+UCDP ORGANIZED VIOLENCE - DATA PROFILING REPORT
+================================================================================
+Input file: C:\Users\Sonali Moorthy\Desktop\dsf-datacleaning\data\raw\organizedviolencecy-251-csv\organizedviolencecy_v25_1.csv
+Subset output: C:\Users\Sonali Moorthy\Desktop\dsf-datacleaning\data\interim\conflict_profile_subset.csv
+
+1) BASIC DATASET INFO
+--------------------------------------------------------------------------------
+Shape (rows, columns): (6936, 4)
+Column names: ['country_cy', 'year_cy', 'region_cy', 'cumulative_total_deaths_in_orgvio_best_cy']
+Data types:
+  - country_cy: str
+  - year_cy: int64
+  - region_cy: str
+  - cumulative_total_deaths_in_orgvio_best_cy: int64
+
+2) DATA QUALITY CHECKS
+--------------------------------------------------------------------------------
+Missing values (count):
+  - country_cy: 0
+  - year_cy: 0
+  - region_cy: 0
+  - cumulative_total_deaths_in_orgvio_best_cy: 0
+Missing values (%):
+  - country_cy: 0.0
+  - year_cy: 0.0
+  - region_cy: 0.0
+  - cumulative_total_deaths_in_orgvio_best_cy: 0.0
+Duplicate rows: 0
+Unique countries: 199
+Year range: 1989 to 2024
+
+3) CONFLICT DEATHS COLUMN CHECKS
+--------------------------------------------------------------------------------
+Column: cumulative_total_deaths_in_orgvio_best_cy
+Mean: 570.5223471741638
+Min: 0
+Max: 772463
+Negative values count: 0
+
+4) POTENTIAL DATA ISSUES
+--------------------------------------------------------------------------------
+Rows with missing country or year: 0
+Zero conflict years (deaths == 0): 4953
+Non-zero conflict years (deaths > 0): 1983
+
+NOTE
+--------------------------------------------------------------------------------
+This script is profiling only. No cleaning, dropping, filling, renaming, or other data modifications were applied.

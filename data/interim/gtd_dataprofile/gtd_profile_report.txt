@@ -1,0 +1,136 @@
+GTD DATA PROFILING REPORT
+================================================================================
+Input file: C:\Users\Sonali Moorthy\Desktop\dsf-datacleaning\data\raw\archive\globalterrorismdb_0718dist.csv
+Subset output: C:\Users\Sonali Moorthy\Desktop\dsf-datacleaning\data\interim\gtd_profile_subset.csv
+
+1) BASIC DATASET INFO
+--------------------------------------------------------------------------------
+Shape (rows, columns): (181691, 8)
+Column names: ['iyear', 'country_txt', 'region_txt', 'attacktype1_txt', 'targtype1_txt', 'gname', 'nkill', 'nwound']
+Data types:
+  - iyear: int64
+  - country_txt: str
+  - region_txt: str
+  - attacktype1_txt: str
+  - targtype1_txt: str
+  - gname: str
+  - nkill: float64
+  - nwound: float64
+
+2) DATA QUALITY CHECKS
+--------------------------------------------------------------------------------
+Missing values (count):
+  - iyear: 0
+  - country_txt: 0
+  - region_txt: 0
+  - attacktype1_txt: 0
+  - targtype1_txt: 0
+  - gname: 0
+  - nkill: 10313
+  - nwound: 16311
+Missing values (%):
+  - iyear: 0.0
+  - country_txt: 0.0
+  - region_txt: 0.0
+  - attacktype1_txt: 0.0
+  - targtype1_txt: 0.0
+  - gname: 0.0
+  - nkill: 5.68
+  - nwound: 8.98
+Duplicate rows: 76991
+Unique values per column:
+  - iyear: 47
+  - country_txt: 205
+  - region_txt: 12
+  - attacktype1_txt: 9
+  - targtype1_txt: 22
+  - gname: 3537
+  - nkill: 206
+  - nwound: 239
+
+3) TOP 10 MOST FREQUENT VALUES (CATEGORICAL COLUMNS)
+--------------------------------------------------------------------------------
+country_txt:
+  - Iraq: 24636
+  - Pakistan: 14368
+  - Afghanistan: 12731
+  - India: 11960
+  - Colombia: 8306
+  - Philippines: 6908
+  - Peru: 6096
+  - El Salvador: 5320
+  - United Kingdom: 5235
+  - Turkey: 4292
+
+region_txt:
+  - Middle East & North Africa: 50474
+  - South Asia: 44974
+  - South America: 18978
+  - Sub-Saharan Africa: 17550
+  - Western Europe: 16639
+  - Southeast Asia: 12485
+  - Central America & Caribbean: 10344
+  - Eastern Europe: 5144
+  - North America: 3456
+  - East Asia: 802
+
+attacktype1_txt:
+  - Bombing/Explosion: 88255
+  - Armed Assault: 42669
+  - Assassination: 19312
+  - Hostage Taking (Kidnapping): 11158
+  - Facility/Infrastructure Attack: 10356
+  - Unknown: 7276
+  - Unarmed Assault: 1015
+  - Hostage Taking (Barricade Incident): 991
+  - Hijacking: 659
+
+targtype1_txt:
+  - Private Citizens & Property: 43511
+  - Military: 27984
+  - Police: 24506
+  - Government (General): 21283
+  - Business: 20669
+  - Transportation: 6799
+  - Utilities: 6023
+  - Unknown: 5898
+  - Religious Figures/Institutions: 4440
+  - Educational Institution: 4322
+
+gname:
+  - Unknown: 82782
+  - Taliban: 7478
+  - Islamic State of Iraq and the Levant (ISIL): 5613
+  - Shining Path (SL): 4555
+  - Farabundo Marti National Liberation Front (FMLN): 3351
+  - Al-Shabaab: 3288
+  - New People's Army (NPA): 2772
+  - Irish Republican Army (IRA): 2671
+  - Revolutionary Armed Forces of Colombia (FARC): 2487
+  - Boko Haram: 2418
+
+4) NUMERIC COLUMNS SUMMARY
+--------------------------------------------------------------------------------
+nkill:
+  - mean: 2.4032722986614385
+  - median: 0.0
+  - min: 0.0
+  - max: 1570.0
+  - negative values count: 0
+
+nwound:
+  - mean: 3.1676684000483735
+  - median: 0.0
+  - min: 0.0
+  - max: 8191.0
+  - negative values count: 0
+
+5) POTENTIAL DATA ISSUES
+--------------------------------------------------------------------------------
+Rows with missing country or year: 0
+Rows where fatalities or injuries are null: 16874
+Rows where perpetrator is 'Unknown': 82782
+
+NOTE
+--------------------------------------------------------------------------------
+This is profiling only. No data cleaning, filling, dropping, or renaming was performed.

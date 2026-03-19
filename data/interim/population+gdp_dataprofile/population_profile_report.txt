@@ -1,0 +1,38 @@
+POPULATION DATASET - DATA PROFILING REPORT
+================================================================================
+Input file: C:\Users\Sonali Moorthy\Desktop\dsf-datacleaning\data\raw\population-with-un-projections\population-with-un-projections.csv
+Subset output: C:\Users\Sonali Moorthy\Desktop\dsf-datacleaning\data\interim\population_profile_subset.csv
+Selected population column: Population, total
+
+1) BASIC DATASET INFO
+--------------------------------------------------------------------------------
+Shape (rows, columns): (39562, 3)
+Column names: ['Entity', 'Year', 'Population, total']
+Data types:
+  - Entity: str
+  - Year: int64
+  - Population, total: float64
+
+2) DATA QUALITY CHECKS
+--------------------------------------------------------------------------------
+Missing values (count):
+  - Entity: 0
+  - Year: 0
+  - Population, total: 20174
+Missing values (%):
+  - Entity: 0.0
+  - Year: 0.0
+  - Population, total: 50.99
+Duplicate rows: 0
+Unique countries/entities: 262
+Year range: 1950 to 2100
+
+3) POTENTIAL DATA ISSUES
+--------------------------------------------------------------------------------
+Potential non-country entries detected: 1812
+Examples of non-country entries (heuristic): Africa, Asia, Europe, High-income countries, Kosovo, Low-income countries, Lower-middle-income countries, North America, Oceania, South America, Upper-middle-income countries, World
+Missing population values: 20174
+
+NOTE
+--------------------------------------------------------------------------------
+This script is profiling only. No cleaning, dropping, filling, renaming, or filtering is applied to the data.

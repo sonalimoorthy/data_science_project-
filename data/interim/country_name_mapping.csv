@@ -1,0 +1,17 @@
+source_country,canonical_country,source_dataset,active_flag
+United States of America,United States,gtd,1
+Russian Federation,Russia,gtd,1
+Congo,Democratic Republic of the Congo,gtd,1
+Viet Nam,Vietnam,gtd,1
+United States of America,United States,conflict,1
+Russian Federation,Russia,conflict,1
+Congo (Kinshasa),Democratic Republic of the Congo,conflict,1
+Viet Nam,Vietnam,conflict,1
+United States of America,United States,population,1
+Russian Federation,Russia,population,1
+Democratic Republic of Congo,Democratic Republic of the Congo,population,1
+Viet Nam,Vietnam,population,1
+United States of America,United States,gdp,1
+Russian Federation,Russia,gdp,1
+Democratic Republic of Congo,Democratic Republic of the Congo,gdp,1
+Viet Nam,Vietnam,gdp,1
