@@ -1,0 +1,10 @@
+Attack_Type_Mode,n_rows,mean_attacks,median_attacks
+Bombing/Explosion,1674,76.28673835125448,9.0
+Armed Assault,717,41.08089260808926,5.0
+Assassination,402,20.823383084577113,2.0
+Facility/Infrastructure Attack,226,16.601769911504423,3.0
+Unknown,66,14.606060606060606,3.5
+Hostage Taking (Kidnapping),129,12.116279069767442,3.0
+Unarmed Assault,31,3.6774193548387095,1.0
+Hostage Taking (Barricade Incident),15,2.3333333333333335,1.0
+Hijacking,38,1.631578947368421,1.0

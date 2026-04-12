@@ -1,0 +1,11 @@
+feature,importance
+num__fatalities_lag1,0.2272676804467068
+num__attacks_roll3,0.15366190588159692
+num__injuries_lag1,0.11597993394026047
+num__attacks_lag2,0.11591972025211915
+num__attacks_lag1,0.1115872408752151
+num__log_attacks_lag1,0.10957517336336833
+num__countries_lag1,0.07170797763885922
+num__Year,0.02577439353533957
+num__conflict_level_lag1,0.025182870179611835
+cat__Region_Sub-Saharan Africa,0.010089312085065954

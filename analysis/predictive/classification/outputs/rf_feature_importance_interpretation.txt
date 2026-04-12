@@ -1,0 +1,27 @@
+Random Forest feature importance (temporal train fit; higher = more split gain).
+Interpretation: lagged attack intensity and rolling past load typically rank high;
+region one-hot columns (cat__) encode geographic baselines; year captures trends.
+
+--- Region panel (top 10) ---
+  num__fatalities_lag1: 0.2273
+  num__attacks_roll3: 0.1537
+  num__injuries_lag1: 0.1160
+  num__attacks_lag2: 0.1159
+  num__attacks_lag1: 0.1116
+  num__log_attacks_lag1: 0.1096
+  num__countries_lag1: 0.0717
+  num__Year: 0.0258
+  num__conflict_level_lag1: 0.0252
+  cat__Region_Sub-Saharan Africa: 0.0101
+
+--- Country panel (top 10) ---
+  num__fatalities_lag1: 0.3170
+  num__attacks_roll3: 0.1310
+  num__injuries_lag1: 0.1163
+  num__attacks_lag1: 0.0931
+  num__log_attacks_lag1: 0.0891
+  num__population_lag1: 0.0640
+  num__attacks_lag2: 0.0617
+  num__conflict_level_lag1: 0.0464
+  num__Year: 0.0417
+  cat__Region_Sub-Saharan Africa: 0.0060
